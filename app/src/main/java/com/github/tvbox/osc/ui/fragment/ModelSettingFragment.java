@@ -237,7 +237,10 @@ public class ModelSettingFragment extends BaseLazyFragment {
             @Override
             public void onClick(View v) {
                 FastClickCheckUtil.check(v);
-                List<SourceBean> sites = ApiConfig.get().getSourceBeanList();
+                List<SourceBean> sites = new ArrayList<>();
+                for (SourceBean sb : ApiConfig.get().getSourceBeanList()) {
+                    if (sb.getHide() == 0) sites.add(sb);
+                }
                 if (sites.size() > 0) {
                     SelectDialog<SourceBean> dialog = new SelectDialog<>(mActivity);
 
@@ -443,6 +446,7 @@ public class ModelSettingFragment extends BaseLazyFragment {
                 players.add(0);
                 players.add(1);
                 players.add(2);
+                players.add(3);
                 players.add(10);
                 players.add(11);
                 players.add(12);

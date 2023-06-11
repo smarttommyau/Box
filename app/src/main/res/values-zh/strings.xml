@@ -30,6 +30,7 @@
     <string name="det_expand">全屏</string>
     <string name="det_search">快搜</string>
     <string name="det_sort">倒序</string>
+    <string name="det_push">推送</string>
     <string name="det_fav">收藏</string>
     <string name="det_fav_add">已添加收藏</string>
     <string name="det_fav_del">已取消收藏</string>
@@ -180,6 +181,28 @@
     <string name="vod_sub_off">字幕已關閉</string>
     <string name="set_enable">开启</string>
     <string name="set_disable">关闭</string>
+    <string name="vod_remaining_time">影片剩余</string>
+    <string name="vod_ends_at">影片结束</string>
+
+    // EXO Player
+    <string name="exo_track_selection_title_video">视频</string>
+    <string name="exo_track_selection_title_audio">音频</string>
+    <string name="exo_track_selection_title_text">文字</string>
+    <string name="exo_track_selection_none">无</string>
+    <string name="exo_track_selection_auto">自动</string>
+    <string name="exo_track_unknown">未知</string>
+    <string name="exo_track_resolution">%1$d × %2$d</string>
+    <string name="exo_track_mono">单声道</string>
+    <string name="exo_track_stereo">立体声</string>
+    <string name="exo_track_surround">环绕声</string>
+    <string name="exo_track_surround_5_point_1">5.1 环绕声</string>
+    <string name="exo_track_surround_7_point_1">7.1 环绕声</string>
+    <string name="exo_track_role_alternate">替用轨</string>
+    <string name="exo_track_role_supplementary">补充轨</string>
+    <string name="exo_track_role_commentary">旁白</string>
+    <string name="exo_track_role_closed_captions">字幕</string>
+    <string name="exo_track_bitrate">%1$.2f Mbps</string>
+    <string name="exo_item_list">%1$s，%2$s</string>
     <string name="set_webview_system">系统自带</string>
     <string name="dia_XWalkView_warn">注意: XWalkView只适用于部分低Android版本，Android5.0以上推荐使用系统自带</string>
     <string name="set_homerec_site">站点推荐</string>
@@ -266,6 +289,16 @@
 
     // Push //
     <string name="push_clipboard">推送剪贴板内容</string>
+    <string name="push_success">推送成功</string>
+    <string name="push_fail_address">推送失败，填的地址可能不对</string>
+    <string name="push_fail_version_low">推送失败，远端tvbox版本不支持</string>
+    <string name="push_input_remote_addr">请输入远端tvbox地址</string>
+    <string name="push_input_remote_port">请输入远端tvbox端口</string>
+    <string name="push_function_not_implement">功能还没实现~</string>
+    <string name="push_remote_addr">远端tvbox地址</string>
+    <string name="push_ip_addr">推送 IP 地址</string>
+    <string name="push_port">端口</string>
+    <string name="push_current_ip">当前 IP</string>
 
     //  Universal //
     <string name="uni_success">成功</string>

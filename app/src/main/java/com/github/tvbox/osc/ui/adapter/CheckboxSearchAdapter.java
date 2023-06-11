@@ -52,7 +52,8 @@ public class CheckboxSearchAdapter extends ListAdapter<SourceBean, CheckboxSearc
 
     public void setMCheckedSources() {
 //        LOG.i(data.size()+"size----size"+mCheckedSources.size());
-        SearchHelper.putCheckedSources(mCheckedSources, data.size() == mCheckedSources.size());
+        if (mCheckedSources != null)
+            SearchHelper.putCheckedSources(mCheckedSources, data.size() == mCheckedSources.size());
     }
 
     @Override
@@ -89,7 +90,7 @@ public class CheckboxSearchAdapter extends ListAdapter<SourceBean, CheckboxSearc
 
         public ViewHolder(View view) {
             super(view);
-            oneSearchSource = (CheckBox) view.findViewById(R.id.oneSearchSource);
+            oneSearchSource = view.findViewById(R.id.oneSearchSource);
         }
     }
 
